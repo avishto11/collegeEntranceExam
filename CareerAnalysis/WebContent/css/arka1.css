@@ -1,0 +1,233 @@
+  /* D:\1.1Web_dev\1_Internship\Nethuts\Project\ET1\et1temp.css */
+  {box-sizing: border-box}
+
+.navbar_top {
+  width: 100%;
+  background-color: rgba(0, 219, 255, 0.6);
+  display: flex;
+  height: 70px;
+  float: right;
+  border-bottom: 3px solid skyblue;
+}
+
+
+.head{
+  height: 500px;
+  width: 100%;
+  background-image: url('4.2.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+ 
+  
+}
+/*.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+*/
+.logo{
+  float: left;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+    width: 15%;
+    border-radius: 40px;
+    font-size: 20px;
+    background-color: rgb(255,255,255,0.6);
+    text-align: center;}
+
+.arka{ list-style-type: none;
+   background-color: rgb(0,0,0,0.3);
+  width: 70%;
+   border-radius: 30px;
+  float: right;
+}
+.arka ul li a{float: left;
+  text-decoration: none;
+  font-size: 20px;
+  width: 20%; /* Four links of equal widths #ffdb4d */
+  text-align: center;}
+
+.bodyheading{
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+    width: 40%;
+    border-radius: 40px;
+    font-size: 30px;
+    text-align: center;}
+img.two {
+  height:60px;
+  border-radius: 30px;
+}
+.cardarka {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border-radius: 30px;
+  display: inline-block;
+  margin-right: 35px;
+  margin-bottom: 30px;
+  position: relative;
+
+}
+
+.yytt {
+  max-height: 400px;
+  padding-top: 10px;
+  display: inline-block;
+border-radius: 30px;
+  position: relative;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  
+}
+
+.cardarka  img {
+    width: 90%;
+    max-height: 60%;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ .xtu{
+max-height: 350px;
+max-width: 300px;
+margin-bottom: 30px;
+}
+.xtu img{width: 90%;
+ padding-top: 10px;
+    padding-bottom: 10px;}
+
+
+.card-1 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+}
+.card-2 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.card-3 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.choose_course_card {
+padding-top: 10px;
+  display: inline-block;
+border-radius: 30px;
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height:100px;
+
+}
+.navbarX {
+  width: 100%;
+  background-color: #fff;
+  overflow: auto;
+  border-top: 1px solid black;
+}
+
+.navbarX a {
+  float: left;
+  padding: 12px;
+  color:black;
+  text-decoration: none;
+  font-size: 17px;
+  width: 16.6%; /* Four links of equal widths */
+  text-align: center;
+}
+.navbarayx{
+  width: 100%;
+  background-color: #fff;
+  overflow: auto;
+  height: 70px;
+  padding-left: 5%;
+  
+}
+.navbarayx form  {
+  float: left;
+  padding: 12px;
+  color:black;
+  text-decoration: none;
+  font-size: 25px;
+/* Four links of equal widths */
+  text-align: center;
+}
+.ttt{border-radius: 30px;}
+.navbar2 {
+  width: 100%;
+  background-color: #cc0033;
+    color: white;
+    font-size: 16px;
+  padding-top: 15px;
+  overflow: auto;
+}
+
+.navbar2 a {
+  float: left;
+  padding: 5px;
+  text-decoration: none;
+  font-size:20px;
+  width: 33.3%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.arka002 i{
+  color:#fff;
+  font-size:35px;
+  text-align: center;
+  margin: 0.5rem;
+
+}
+video {
+  width: 100%;
+  height: auto;
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+  .navbarX a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid lightgray;
+  }
+  .navbar2 a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  h1 {
+  width: 100%;
+}
+
+.navbarayx{
+
+  height:120px;
+  
+}
+ 
+}
+
+
+
+@media screen and (max-width: 350px){
+
+}
+
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
